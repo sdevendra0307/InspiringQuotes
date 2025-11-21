@@ -28,7 +28,7 @@ struct ContentView: View {
             Button(action: {
                 currentQuote = quotes.randomElement() ?? ""
             }) {
-                Text("Show Quote")
+                Text("Show next Quote")
                     .bold()
                     .padding()
                     .frame(maxWidth: .infinity)
@@ -45,4 +45,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
